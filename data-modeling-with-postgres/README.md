@@ -32,20 +32,20 @@ Using the song and log datasets, the database schema consists of one main fact t
 ## Dataset
 > All dataset for the project resides in the **data** folder
 
-###Song Dataset
+### Song Dataset
 Song dataset are json files nested in subdirectories under */data/song_data*. Each file contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track
 
 A sample of a single song file:
 
-```
+```Python
 {"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
 ```
 
-###Log Dataset
+### Log Dataset
 The second dataset consisting of log files in JSON format are in subdirectories under */data/log_data*. These activity logs from a music streaming app based on specified configurations.
 
 A sample of data in a log file:
-```
+```Python
 {"artist":"Mitch Ryder & The Detroit Wheels","auth":"Logged In","firstName":"Tegan","gender":"F","itemInSession":65,"lastName":"Levine","length":205.03465,"level":"paid","location":"Portland-South Portland, ME","method":"PUT","page":"NextSong","registration":1540794356796.0,"sessionId":992,"song":"Jenny Take A Ride (LP Version)","status":200,"ts":1543363215796,"userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"80"}
 ```
 
