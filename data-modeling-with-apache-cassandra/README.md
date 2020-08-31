@@ -1,6 +1,8 @@
 # Sparkify: Data Modeling
 *Data Modeling with Apache Cassandra*
 
+![@| center | 150x0](https://images.techhive.com/images/article/2014/06/cassandra-logo-fxd-100310326-primary.idge.jpg)
+
 ---
 ## Goals and Purposes
 
