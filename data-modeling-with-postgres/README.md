@@ -1,7 +1,7 @@
 # Sparkify: Database & ETL Pipeline
 *Data Modeling with Postgres for music streaming app*
 
-![@| center | 700x0](https://miro.medium.com/max/1200/1*7AOhGDnRL2eyJMUidCHZEA.jpeg)
+![@| center | 150x0](https://miro.medium.com/max/1200/1*7AOhGDnRL2eyJMUidCHZEA.jpeg)
 
 ---
 ## Purpose and Goals
@@ -14,7 +14,7 @@ The purpose of this project is to create a Postgres database that optimizes quer
 
 Using the song and log datasets, the database schema consists of one main fact table (*songplays*) containing all the measures associated to each event and referencing to 4 dimentional tables (*users*, *songs*, *artists*, and *time*)
 
-![@Sparkify Database Schema | center | 500x0](https://raw.githubusercontent.com/evelynle28/Sparkify/master/data-modeling-with-postgres/img/Database%20Schema.pngg)
+![@Sparkify Database Schema | center | 100x0](https://raw.githubusercontent.com/evelynle28/Sparkify/master/data-modeling-with-postgres/img/Database%20Schema.png)
 
 #### Fact Table
 1. **songplays** - *records in log data associated with song plays*
