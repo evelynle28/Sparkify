@@ -56,3 +56,18 @@ A sample of data in a log file:
 
 The ETL pipeline first extracts the data from the source database residing in AWS S3. Then, it creates 2 staging tables, ***staging_events*** and ***staging_songs***, in the RedShift cluster created. The pipeline then copy the user log data and the song metadata in to these 2 staging tables in JSON format. While staging the extracted data into RedShift, the pipeline also perform data cleasing, excluding certain invalid values, to preserve the accuracy and consistence of data in the target database (RedShift). The Fact and Dimension tables are created on RedShift based on the schema described above. After data is load into the staging area and all necessary tables are created, the ETL pipeline populates data from the staging tables into the dimension and fact tables created in RedShift.
 
+--
+## Run
+
+The repo contains a config files that contains the AWS credentials and information related to your RedShift cluster and IAM role. Be mindful to fill out all the information before run the `etl.py`
+
+```sh
+$ git clone https://github.com/evelynle28/Sparkify.git
+$ cd data-warehousing-with-RedShift
+```
+
+After filling out all information in the config file
+
+```sh
+$ python3 etl.py
+```
