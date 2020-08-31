@@ -1,7 +1,7 @@
 # Sparkify: Data Warehouse
 *Building data pipeline to move the music streaming app's data onto the cloud with RedShift*
 
-![@| center | 150x0](https://d2adhoc2vrfpqj.cloudfront.net/2020/03/AmazonRedshift.png)
+![@(RedShift Logo)| center](https://d2adhoc2vrfpqj.cloudfront.net/2020/03/AmazonRedshift.png)
 
 ---
 ## Purpose and Goals
