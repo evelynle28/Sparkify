@@ -1,5 +1,7 @@
 # Sparkify: Data Lake
-Building Data Lake & ETL pipeline with Spark and AWS S3
+Building Data Lake & ETL pipeline with Spark, AWS S3, and AWS EMR
+
+![(@Spark logo)| center](https://www.inovex.de/blog/wp-content/uploads/2016/12/spark.png)
 
 ---
 ## Project Goals
