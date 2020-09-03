@@ -65,7 +65,7 @@ Clone this repo
 
 ```sh
 $ git clone https://github.com/evelynle28/Sparkify.git
-$ cd data-warehousing-with-RedShift
+$ cd data-lake-with-spark
 
 ```
 The repo contains a config files that contains the AWS credentials. Be mindful to fill out all the information before run the etl.py. At the same time, your destination bucket is also needed to be specified in `etl.py`
