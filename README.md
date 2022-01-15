@@ -1,6 +1,6 @@
 # Sparkify: Data Engineering projects
 
-![(@Data Engineer)| center](https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2017/11/why-data-engineer-trending-01.jpg)
+![(@Data Engineer)| center](https://raw.githubusercontent.com/evelynle28/Sparkify/master/data-modeling-with-postgres/img/data-engineering-illustration.jpg)
 
 ---
 ## Overview
