@@ -5,14 +5,14 @@
 ---
 ## Overview
 
-Sparkify is a (hypothetical) music streaming start-up that wants to learn about their users' listening preferences on their app. To make the collected data more accessible for Sparkify's analytics team, these projects will design and build database system based on the needs and scale of the company at different time. The first two projects will perform data modeling with Progres and Cassandra. The third will utilize Amazon RedShift and AWS S3 build a data warehouse on Cloud. As the company continues to grow, the fourth project will build a data lake with Spark, AWS EMR, and AWS S3.The last project in this repo will orchestrate and automate a data workflow using Apache Airflow.
+Sparkify is a (hypothetical) music streaming start-up that wants to learn about their users' listening preferences on their app. To make the collected data more accessible for Sparkify's analytics team, these projects will design and build database system based on the needs and scale of the company at different time. The first two projects will perform data modeling with Postgres and Cassandra. The third will utilize Amazon RedShift and AWS S3 build a data warehouse on Cloud. As the company continues to grow, the fourth project will build a data lake with Spark, AWS EMR, and AWS S3.The last project in this repo will orchestrate and automate a data workflow using Apache Airflow.
 
 ---
 ## Project 1: Data Modeling with Postgres
 
 The purpose of this project is to create a Postgres database that optimizes queries on song play analysis and build an ETL pipeline to transfer data from the Sparkify's datasets. To make the collected data more accessible for Sparkify's analytics team, this project creates a database using a star schema and builds an ETL pipeline to transfer data in JSON format from 2 local directories into the tables using Python and SQL.
 
-Details about project 1: [Data Modeling with Progres](https://github.com/evelynle28/Sparkify/tree/master/data-modeling-with-postgres)
+Details about project 1: [Data Modeling with Postgres](https://github.com/evelynle28/Sparkify/tree/master/data-modeling-with-postgres)
 
 ---
 ## Project 2: Data Modeling with Cassandra
